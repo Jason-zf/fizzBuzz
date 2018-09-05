@@ -1,6 +1,6 @@
 const singleNumberMapper = (singleNumber) => {
     let res = singleNumberMapToFizz(singleNumber) + singleNumberMapToBuzz(singleNumber) + singleNumberMapToWhizz(singleNumber);
-    return res === '' ? singleNumber : res;
+    return  res === '' ? singleNumber : res;
 }
 
 const singleNumberMapToFizz = (number) => {
